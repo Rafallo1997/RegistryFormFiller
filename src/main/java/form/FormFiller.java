@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FormFiller {
-    String first_name="Chuj";
+    String first_name="Jan";
     WebElement create_account;
     WebElement form;
     WebDriver driver;
@@ -27,9 +27,9 @@ public class FormFiller {
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"account-creation_form\"]")));
 
         input(driver.findElement(By.id("customer_firstname")), first_name);
-      input(driver.findElement(By.id("customer_lastname")), "Dupa");
+      input(driver.findElement(By.id("customer_lastname")), "Kowalski");
 
-input("passwd","dddd");
+input("passwd","haslo");
 Birthday_form(12,1,1997);
     }
 

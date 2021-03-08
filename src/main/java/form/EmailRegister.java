@@ -16,7 +16,7 @@ boolean clickedButton =false;
 
     driver.navigate().to("http://automationpractice.com/index.php?controller=authentication&back=my-account");
      email_input=driver.findElement(By.id("email_create"));
-            email_input.sendKeys("dupa@op.pl");
+            email_input.sendKeys("email@op.pl");
             driver.findElement(By.id("SubmitCreate")).click();
 
         clickedButton =true;
