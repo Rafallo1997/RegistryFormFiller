@@ -6,20 +6,16 @@ import org.openqa.selenium.WebElement;
 
 public class EmailRegister {
 WebElement email_input, button;
-boolean clickedButton =false;
 
-    public boolean isClickedButton() {
-        return clickedButton;
-    }
 
     public EmailRegister(WebDriver driver){
 
     driver.navigate().to("http://automationpractice.com/index.php?controller=authentication&back=my-account");
      email_input=driver.findElement(By.id("email_create"));
-            email_input.sendKeys("email@op.pl");
+            email_input.sendKeys("email2@op.pl");
             driver.findElement(By.id("SubmitCreate")).click();
 
-        clickedButton =true;
+
 
 }
 }

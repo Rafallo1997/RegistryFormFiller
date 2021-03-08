@@ -12,7 +12,7 @@ public class Main {
 
 
         EmailRegister emailRegister=new EmailRegister(driver);
-        if(emailRegister.isClickedButton()){
+
         FormFiller formFiller=new FormFiller(driver);
-    }}
+    }
 }
