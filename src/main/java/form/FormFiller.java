@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FormFiller {
-    String first_name="Jan";
+    private String first_name="Jan";
     WebElement create_account;
     WebElement form;
     WebDriver driver;
@@ -26,11 +26,20 @@ public class FormFiller {
         wait=new WebDriverWait(driver,15);
         wait.until(ExpectedConditions.visibilityOfElementLocated(By.xpath("//*[@id=\"account-creation_form\"]")));
 
+        //Inputs//////////////
+
+        Title_selector("Mrs");
         input(driver.findElement(By.id("customer_firstname")), first_name);
       input(driver.findElement(By.id("customer_lastname")), "Kowalski");
-
-input("passwd","haslo");
-Birthday_form(12,1,1997);
+      input("passwd","haslo");
+      Birthday_form(12,1,1997);
+      input("company","Company Name");
+      input("address1","StreetName");
+      input("address2","45a");
+      input("city","CityName");
+      select_by_text("id_state","Alaska");
+      input("postcode","00500");
+      input("phone_mobile","123456789");
     }
 
     /**
@@ -58,20 +67,35 @@ WebElement element=driver.findElement(By.id(id));
             element.sendKeys(input);
         }else System.out.println("Input "+element.getAttribute("id")+" not empty");
     }
-    public void  select(String id,String selection){
-       new Select(driver.findElement(By.id(id))).selectByValue(selection);
+    public void select(String id,String value){
+       new Select(driver.findElement(By.id(id))).selectByValue(value);
     }
+    public void select_by_text(String id,String text){
+        new Select((driver.findElement(By.id(id)))).selectByVisibleText(text);
+    }
+
 
     /**
      * This method fills Birthday select form
-     * @param day
-     * @param month
-     * @param year
+     * @param day number of day
+     * @param month number of month
+     * @param year number of year
      */
     public void Birthday_form(int day,int month,int year){
         select("days", String.valueOf(day));
         select("months", String.valueOf(month));
         select("years", String.valueOf(year));
     }
+public void Title_selector(String title){
+switch (title){
+    case "Mr":
+        driver.findElement(By.id("id_gender1")).click();
+        break;
+    case "Mrs":
+        driver.findElement(By.id("id_gender2")).click();
+        break;
+}
 
+
+}
 }
