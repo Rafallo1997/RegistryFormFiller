@@ -28,9 +28,12 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="Created JUnit test for EmailRegister">
-      <change afterPath="$PROJECT_DIR$/src/test/java/EmailRegisterTest.java" afterDir="false" />
+    <list default="true" id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="fixed last commit">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SetWebDriver.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/SetWebDriver.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -76,7 +79,7 @@
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
     <property name="last_opened_file_path" value="$USER_HOME$/Downloads/selenium-java-3.141.59" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.2" />
     <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
@@ -90,7 +93,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
+  <component name="RunManager" selected="JUnit.EmailRegisterTest">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AutomatyzacjaStrony" />
@@ -140,17 +143,16 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.EmailRegisterTest" />
-        <item itemvalue="JUnit.FormFillerTest" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.FormFillerTest.validCheckerLoop" />
+        <item itemvalue="JUnit.FormFillerTest" />
       </list>
     </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
-      <changelist id="" name="Default Changelist" comment="" />
       <changelist id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="" />
       <created>1614862552575</created>
       <option name="number" value="Default" />
@@ -206,7 +208,21 @@
       <option name="project" value="LOCAL" />
       <updated>1615718892632</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="fixed last commit">
+      <created>1615720040749</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1615720040749</updated>
+    </task>
+    <task id="LOCAL-00009" summary="added necesary directories to commit">
+      <created>1615720468175</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1615720468175</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -241,6 +257,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="first commit" />
@@ -250,7 +267,9 @@
     <MESSAGE value="deleted redundant piece of code" />
     <MESSAGE value="1: added validator to EmailRegister that catches errors when email is invalid&#10;2: added loop in FormFiller that checks if values in forms are correct&#10;3:added class SetWebDriver that returns Chrome Web Driver" />
     <MESSAGE value="Created JUnit test for EmailRegister" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created JUnit test for EmailRegister" />
+    <MESSAGE value="fixed last commit" />
+    <MESSAGE value="added necesary directories to commit" />
+    <option name="LAST_COMMIT_MESSAGE" value="added necesary directories to commit" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -270,10 +289,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="546" y="174" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614869910420" />
-    <state x="12" y="134" key="CommitChangelistDialog2" timestamp="1615718890719">
+    <state x="12" y="134" key="CommitChangelistDialog2" timestamp="1615721294440">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="12" y="134" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1615718890719" />
+    <state x="12" y="134" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1615721294440" />
     <state x="93" y="93" width="1862" height="926" key="DiffContextDialog" timestamp="1615712215913">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -286,54 +305,54 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="454" key="Github.ShareDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614876062557" />
-    <state width="1002" height="311" key="GridCell.Tab.0.bottom" timestamp="1615718831243">
+    <state width="1002" height="376" key="GridCell.Tab.0.bottom" timestamp="1615723158421">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615718831243" />
-    <state width="1002" height="311" key="GridCell.Tab.0.center" timestamp="1615718831242">
+    <state width="1002" height="376" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158421" />
+    <state width="1002" height="376" key="GridCell.Tab.0.center" timestamp="1615723158421">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615718831242" />
-    <state width="1002" height="311" key="GridCell.Tab.0.left" timestamp="1615718831242">
+    <state width="1002" height="376" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158421" />
+    <state width="1002" height="376" key="GridCell.Tab.0.left" timestamp="1615723158421">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615718831242" />
-    <state width="1002" height="311" key="GridCell.Tab.0.right" timestamp="1615718831242">
+    <state width="1002" height="376" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158421" />
+    <state width="1002" height="376" key="GridCell.Tab.0.right" timestamp="1615723158421">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615718831242" />
-    <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1615402511062">
+    <state width="1002" height="376" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158421" />
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1615723158422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511062" />
-    <state width="1002" height="376" key="GridCell.Tab.1.center" timestamp="1615402511061">
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158422" />
+    <state width="1002" height="376" key="GridCell.Tab.1.center" timestamp="1615723158422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511061" />
-    <state width="1002" height="376" key="GridCell.Tab.1.left" timestamp="1615402511061">
+    <state width="1002" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158422" />
+    <state width="1002" height="376" key="GridCell.Tab.1.left" timestamp="1615723158422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511061" />
-    <state width="1002" height="376" key="GridCell.Tab.1.right" timestamp="1615402511062">
+    <state width="1002" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158422" />
+    <state width="1002" height="376" key="GridCell.Tab.1.right" timestamp="1615723158422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511062" />
+    <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158422" />
     <state x="389" y="259" key="RollbackChangesDialog" timestamp="1615719494296">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="389" y="259" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615719494296" />
-    <state x="505" y="131" key="SettingsEditor" timestamp="1614875343782">
+    <state x="505" y="131" key="SettingsEditor" timestamp="1615720608126">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="505" y="131" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1614875343782" />
+    <state x="505" y="131" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1615720608126" />
     <state x="913" y="471" key="VCS.EditChangelistDialog" timestamp="1615712077592">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="913" y="471" key="VCS.EditChangelistDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615712077592" />
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1615718897354">
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1615720581363">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1615718897354" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1615720581363" />
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615712660973">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -342,5 +361,9 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615487786865" />
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1615722993631">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1615722993631" />
   </component>
 </project>

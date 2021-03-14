@@ -23,7 +23,7 @@ WebDriverWait wait;
 
     public EmailRegister(WebDriver driver,String email){
         this.email=email;
-wait=new WebDriverWait(driver,1);
+wait=new WebDriverWait(driver,2);
     driver.navigate().to("http://automationpractice.com/index.php?controller=authentication&back=my-account");
      email_input=driver.findElement(By.id("email_create"));
             email_input.sendKeys(email);
