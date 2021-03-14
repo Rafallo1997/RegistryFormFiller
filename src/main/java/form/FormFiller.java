@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FormFiller {
-    private String first_name="Jan";
+    private String first_name="Jan0";
     WebElement create_account;
     WebElement form;
     WebDriver driver;
@@ -40,6 +40,8 @@ public class FormFiller {
       select_by_text("id_state","Alaska");
       input("postcode","00500");
       input("phone_mobile","123456789");
+      validCheckerLoop();
+
     }
 
     /**
@@ -86,7 +88,12 @@ WebElement element=driver.findElement(By.id(id));
         select("months", String.valueOf(month));
         select("years", String.valueOf(year));
     }
-public void Title_selector(String title){
+
+    /**
+     * This method selects box with tile
+     * @param title Type Mr or Mrs to select title
+     */
+    public void Title_selector(String title){
 switch (title){
     case "Mr":
         driver.findElement(By.id("id_gender1")).click();
@@ -97,5 +104,23 @@ switch (title){
 }
 
 
+}
+
+
+    /**
+     * This method loops through forms with validations and checks if there is any errors
+     */
+    public void validCheckerLoop(){
+
+        for(int i=2;i<6;i++){
+            String string=String.format("//*[@id=\"account-creation_form\"]/div[1]/div[%s]",i);
+            WebElement validator=driver.findElement(By.xpath(string));
+            String a=validator.getAttribute("class");
+             String b="required form-group form-ok";
+             String c="required password form-group form-ok";
+             if(a.equals(b)||a.equals(c)) {
+                 System.out.println(validator.getText() + " " +"OK");
+             }else System.out.println(validator.getText()+" "+"Not OK");
+        }
 }
 }
