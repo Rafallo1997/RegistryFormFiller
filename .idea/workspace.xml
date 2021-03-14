@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="changelist">
+      <change beforePath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JUnit5 Test Class" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Pull.Settings">
+    <option name="BRANCH" value="master" />
+  </component>
+  <component name="Git.Settings">
+    <option name="PREVIOUS_COMMIT_AUTHORS">
+      <list>
+        <option value="Rafał Tomaszewski" />
+      </list>
+    </option>
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="C:\Program Files\JetBrains\IntelliJ IDEA Community Edition 2019.3.3\plugins\maven\lib\maven3" />
+      </MavenGeneralSettings>
+    </option>
+  </component>
+  <component name="ProjectId" id="1pIFA4XSRwl2CBEncolZ6kR8HjF" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+    <option name="showMembers" value="true" />
+    <option name="showVisibilityIcons" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit5" />
+    <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5" value="" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Downloads/selenium-java-3.141.59" />
+    <property name="project.structure.last.edited" value="Modules" />
+    <property name="project.structure.proportion" value="0.15" />
+    <property name="project.structure.side.proportion" value="0.2" />
+    <property name="settings.editor.selected.configurable" value="org.jetbrains.plugins.github.ui.GithubSettingsConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+      <recent name="form" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.EmailRegisterTest">
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <module name="AutomatyzacjaStrony" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomatyzacjaStrony" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="EmailRegisterTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormFillerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomatyzacjaStrony" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="form" />
+      <option name="MAIN_CLASS_NAME" value="form.FormFillerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="FormFillerTest.validCheckerLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomatyzacjaStrony" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="form.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="form" />
+      <option name="MAIN_CLASS_NAME" value="form.FormFillerTest" />
+      <option name="METHOD_NAME" value="validCheckerLoop" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.EmailRegisterTest" />
+        <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.FormFillerTest" />
+        <item itemvalue="JUnit.FormFillerTest.validCheckerLoop" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="" name="Default Changelist" comment="" />
+      <changelist id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="" />
+      <created>1614862552575</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1614862552575</updated>
+    </task>
+    <task id="LOCAL-00001" summary="first commit">
+      <created>1614875944287</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1614875944287</updated>
+    </task>
+    <task id="LOCAL-00002" summary="changed README.md file name">
+      <created>1614876149101</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1614876149101</updated>
+    </task>
+    <task id="LOCAL-00003" summary="changed some values to be more appropriate">
+      <created>1615215718063</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1615215718063</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Added methods to handle select box and select list">
+      <created>1615218550910</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1615218550910</updated>
+    </task>
+    <task id="LOCAL-00005" summary="deleted redundant piece of code">
+      <created>1615219252011</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1615219252011</updated>
+    </task>
+    <task id="LOCAL-00006" summary="1: added validator to EmailRegister that catches errors when email is invalid&#10;2: added loop in FormFiller that checks if values in forms are correct&#10;3:added class SetWebDriver that returns Chrome Web Driver">
+      <created>1615711878410</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1615711878410</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
+    <servers />
+  </component>
+  <component name="Vcs.Log.History.Properties">
+    <option name="COLUMN_ORDER">
+      <list>
+        <option value="0" />
+        <option value="2" />
+        <option value="3" />
+        <option value="1" />
+      </list>
+    </option>
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="master" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="first commit" />
+    <MESSAGE value="changed README.md file name" />
+    <MESSAGE value="changed some values to be more appropriate" />
+    <MESSAGE value="Added methods to handle select box and select list" />
+    <MESSAGE value="deleted redundant piece of code" />
+    <MESSAGE value="1: added validator to EmailRegister that catches errors when email is invalid&#10;2: added loop in FormFiller that checks if values in forms are correct&#10;3:added class SetWebDriver that returns Chrome Web Driver" />
+    <option name="LAST_COMMIT_MESSAGE" value="1: added validator to EmailRegister that catches errors when email is invalid&#10;2: added loop in FormFiller that checks if values in forms are correct&#10;3:added class SetWebDriver that returns Chrome Web Driver" />
+    <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="505" y="131" key="#Project_Structure" timestamp="1615399159945">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1615399159945" />
+    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1615717374077">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615717374077" />
+    <state x="830" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1615717625283">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="830" y="257" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1615717625283" />
+    <state x="546" y="174" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614869910420">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="546" y="174" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614869910420" />
+    <state x="12" y="134" key="CommitChangelistDialog2" timestamp="1615713211368">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="12" y="134" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1615713211368" />
+    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog" timestamp="1615712215913">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="93" y="93" width="1862" height="926" key="DiffContextDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615712215913" />
+    <state x="729" y="298" key="FileChooserDialogImpl" timestamp="1614863443343">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="729" y="298" key="FileChooserDialogImpl/0.0.2048.1112@0.0.2048.1112" timestamp="1614863443343" />
+    <state x="874" y="454" key="Github.ShareDialog" timestamp="1614876062557">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="874" y="454" key="Github.ShareDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614876062557" />
+    <state width="1002" height="311" key="GridCell.Tab.0.bottom" timestamp="1615717883734">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="311" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615717883734" />
+    <state width="1002" height="311" key="GridCell.Tab.0.center" timestamp="1615717883733">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="311" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615717883733" />
+    <state width="1002" height="311" key="GridCell.Tab.0.left" timestamp="1615717883733">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="311" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615717883733" />
+    <state width="1002" height="311" key="GridCell.Tab.0.right" timestamp="1615717883734">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="311" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615717883734" />
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1615402511062">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="376" key="GridCell.Tab.1.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511062" />
+    <state width="1002" height="376" key="GridCell.Tab.1.center" timestamp="1615402511061">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="376" key="GridCell.Tab.1.center/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511061" />
+    <state width="1002" height="376" key="GridCell.Tab.1.left" timestamp="1615402511061">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="376" key="GridCell.Tab.1.left/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511061" />
+    <state width="1002" height="376" key="GridCell.Tab.1.right" timestamp="1615402511062">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615402511062" />
+    <state x="389" y="259" key="RollbackChangesDialog" timestamp="1615713173787">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="389" y="259" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615713173787" />
+    <state x="505" y="131" key="SettingsEditor" timestamp="1614875343782">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="505" y="131" key="SettingsEditor/0.0.2048.1112@0.0.2048.1112" timestamp="1614875343782" />
+    <state x="913" y="471" key="VCS.EditChangelistDialog" timestamp="1615712077592">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="913" y="471" key="VCS.EditChangelistDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615712077592" />
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2" timestamp="1615711891018">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="617" y="289" key="Vcs.Push.Dialog.v2/0.0.2048.1112@0.0.2048.1112" timestamp="1615711891018" />
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1615712660973">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1615712660973" />
+    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615487786865">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615487786865" />
+  </component>
+</project>

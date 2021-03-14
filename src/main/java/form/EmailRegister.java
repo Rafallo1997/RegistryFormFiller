@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 import java.util.concurrent.TimeUnit;
 
 public class EmailRegister {
-WebElement email_input,error;
+WebElement email_input;
 
     public boolean isError() {
         return Error;
@@ -34,7 +34,7 @@ wait=new WebDriverWait(driver,1);
 
             }catch (TimeoutException e){
                 Error=false;
-                e.printStackTrace();
+                //e.printStackTrace();
             }
 
 
