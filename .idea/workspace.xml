@@ -90,7 +90,7 @@
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="JUnit.EmailRegisterTest">
+  <component name="RunManager" selected="Application.Main">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Main" />
       <module name="AutomatyzacjaStrony" />
@@ -140,8 +140,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailRegisterTest" />
         <item itemvalue="Application.Main" />
+        <item itemvalue="JUnit.EmailRegisterTest" />
         <item itemvalue="JUnit.FormFillerTest" />
         <item itemvalue="JUnit.FormFillerTest.validCheckerLoop" />
       </list>
