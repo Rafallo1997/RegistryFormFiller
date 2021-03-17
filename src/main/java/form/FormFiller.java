@@ -11,7 +11,7 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FormFiller {
 
-    WebElement create_account;
+
     WebElement form;
     WebDriver driver;
 
@@ -21,6 +21,10 @@ public class FormFiller {
 
     WebDriverWait wait;
 
+    /**
+     * This constructor fills up forms with provided data
+     * @param driver Web ChromeDriver
+     */
     public FormFiller(WebDriver driver){
         this.driver=driver;
         wait=new WebDriverWait(driver,15);

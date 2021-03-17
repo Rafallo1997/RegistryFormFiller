@@ -28,17 +28,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/form/RegistrationProcess.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/FormFillerTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+    <list default="true" id="901fee95-af51-41be-97e3-b31d3930fdb6" name="changelist" comment="Created new class RegistrationProcess that combines EmailRegister and FormFiller classes">
+      <change afterPath="$PROJECT_DIR$/src/main/java/form/SetWebDriver.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/form/EmailRegisterTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form/EmailRegister.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/SetWebDriver.java" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/form/FormFiller.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/form/FormFiller.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/EmailRegisterTest.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/FormFillerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/form/FormFillerTest.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/Main.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/Main.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/form/EmailRegister.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/SetWebDriver.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/form/FormFiller.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/form/FormFiller.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/EmailRegisterTest.class" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -48,8 +50,8 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="JUnit5 Test Class" />
         <option value="Class" />
+        <option value="JUnit5 Test Class" />
       </list>
     </option>
   </component>
@@ -91,31 +93,37 @@
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
-      <recent name="" />
       <recent name="form" />
+      <recent name="" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="form" />
+      <recent name="" />
     </key>
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.Main">
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
-      <module name="AutomatyzacjaStrony" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.EmailRegisterTest.Create_account_test_correct">
     <configuration name="EmailRegisterTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomatyzacjaStrony" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="EmailRegisterTest" />
+      <option name="PACKAGE_NAME" value="form" />
+      <option name="MAIN_CLASS_NAME" value="form.EmailRegisterTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormFillerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailRegisterTest_Chrome" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomatyzacjaStrony" />
+      <option name="PACKAGE_NAME" value="form" />
+      <option name="MAIN_CLASS_NAME" value="form.EmailRegisterTest_Chrome" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailRegisterTest.Create_account_test_correct" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomatyzacjaStrony" />
       <extension name="coverage">
         <pattern>
@@ -124,23 +132,24 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="form" />
-      <option name="MAIN_CLASS_NAME" value="form.FormFillerTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="FormFillerTest.Test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="AutomatyzacjaStrony" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="MAIN_CLASS_NAME" value="FormFillerTest" />
-      <option name="METHOD_NAME" value="Test" />
+      <option name="MAIN_CLASS_NAME" value="form.EmailRegisterTest" />
+      <option name="METHOD_NAME" value="Create_account_test_correct" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="FormFillerTest.validCheckerLoop" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailRegisterTest.Create_account_test_incorrect_Opera" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="AutomatyzacjaStrony" />
+      <option name="PACKAGE_NAME" value="form" />
+      <option name="MAIN_CLASS_NAME" value="form.EmailRegisterTest" />
+      <option name="METHOD_NAME" value="Create_account_test_incorrect_Opera" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailRegisterTest_Opera" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="AutomatyzacjaStrony" />
       <extension name="coverage">
         <pattern>
@@ -149,20 +158,19 @@
         </pattern>
       </extension>
       <option name="PACKAGE_NAME" value="form" />
-      <option name="MAIN_CLASS_NAME" value="form.FormFillerTest" />
-      <option name="METHOD_NAME" value="validCheckerLoop" />
-      <option name="TEST_OBJECT" value="method" />
+      <option name="MAIN_CLASS_NAME" value="form.EmailRegisterTest_Opera" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Main" />
-        <item itemvalue="JUnit.FormFillerTest.Test" />
-        <item itemvalue="JUnit.FormFillerTest" />
+        <item itemvalue="JUnit.EmailRegisterTest.Create_account_test_correct" />
         <item itemvalue="JUnit.EmailRegisterTest" />
-        <item itemvalue="JUnit.FormFillerTest.validCheckerLoop" />
+        <item itemvalue="JUnit.EmailRegisterTest_Opera" />
+        <item itemvalue="JUnit.EmailRegisterTest_Chrome" />
+        <item itemvalue="JUnit.EmailRegisterTest.Create_account_test_incorrect_Opera" />
       </list>
     </recent_temporary>
   </component>
@@ -252,7 +260,14 @@
       <option name="project" value="LOCAL" />
       <updated>1615725469373</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="Created new class RegistrationProcess that combines EmailRegister and FormFiller classes">
+      <created>1616004787592</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1616004787592</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.History.Properties">
@@ -301,7 +316,8 @@
     <MESSAGE value="added necesary directories to commit" />
     <MESSAGE value="added WebDriverManager dependency to Maven and updated SetWebDriver class" />
     <MESSAGE value="updated .gitignore" />
-    <option name="LAST_COMMIT_MESSAGE" value="updated .gitignore" />
+    <MESSAGE value="Created new class RegistrationProcess that combines EmailRegister and FormFiller classes" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created new class RegistrationProcess that combines EmailRegister and FormFiller classes" />
     <option name="MAKE_NEW_CHANGELIST_ACTIVE" value="true" />
   </component>
   <component name="WindowStateProjectService">
@@ -309,22 +325,26 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="505" y="131" key="#Project_Structure/0.0.2048.1112@0.0.2048.1112" timestamp="1615399159945" />
-    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1615717374077">
+    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1616006522664">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615717374077" />
+    <state x="93" y="93" width="1862" height="926" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1616006522664" />
     <state x="830" y="257" key="#com.intellij.ide.util.MemberChooser" timestamp="1615717625283">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="830" y="257" key="#com.intellij.ide.util.MemberChooser/0.0.2048.1112@0.0.2048.1112" timestamp="1615717625283" />
+    <state x="807" y="421" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes" timestamp="1616008122269">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="807" y="421" width="433" height="267" key="#com.intellij.refactoring.move.moveClassesOrPackages.MoveClassesOrPackagesDialog.classes/0.0.2048.1112@0.0.2048.1112" timestamp="1616008122269" />
     <state x="546" y="174" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog" timestamp="1614869910420">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="546" y="174" key="#com.intellij.refactoring.rename.AutomaticRenamingDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614869910420" />
-    <state x="12" y="134" key="CommitChangelistDialog2" timestamp="1615725468215">
+    <state x="12" y="134" key="CommitChangelistDialog2" timestamp="1616004786351">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="12" y="134" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1615725468215" />
+    <state x="12" y="134" key="CommitChangelistDialog2/0.0.2048.1112@0.0.2048.1112" timestamp="1616004786351" />
     <state x="93" y="93" width="1862" height="926" key="DiffContextDialog" timestamp="1615712215913">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -337,22 +357,22 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="874" y="454" key="Github.ShareDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1614876062557" />
-    <state width="1002" height="311" key="GridCell.Tab.0.bottom" timestamp="1616004495992">
+    <state width="1002" height="311" key="GridCell.Tab.0.bottom" timestamp="1616008838538">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616004495992" />
-    <state width="1002" height="311" key="GridCell.Tab.0.center" timestamp="1616004495992">
+    <state width="1002" height="311" key="GridCell.Tab.0.bottom/0.0.2048.1112@0.0.2048.1112" timestamp="1616008838538" />
+    <state width="1002" height="311" key="GridCell.Tab.0.center" timestamp="1616008838538">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616004495992" />
-    <state width="1002" height="311" key="GridCell.Tab.0.left" timestamp="1616004495992">
+    <state width="1002" height="311" key="GridCell.Tab.0.center/0.0.2048.1112@0.0.2048.1112" timestamp="1616008838538" />
+    <state width="1002" height="311" key="GridCell.Tab.0.left" timestamp="1616008838538">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616004495992" />
-    <state width="1002" height="311" key="GridCell.Tab.0.right" timestamp="1616004495992">
+    <state width="1002" height="311" key="GridCell.Tab.0.left/0.0.2048.1112@0.0.2048.1112" timestamp="1616008838538" />
+    <state width="1002" height="311" key="GridCell.Tab.0.right" timestamp="1616008838538">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state width="1002" height="311" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616004495992" />
+    <state width="1002" height="311" key="GridCell.Tab.0.right/0.0.2048.1112@0.0.2048.1112" timestamp="1616008838538" />
     <state width="1002" height="376" key="GridCell.Tab.1.bottom" timestamp="1615723158422">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -369,10 +389,10 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state width="1002" height="376" key="GridCell.Tab.1.right/0.0.2048.1112@0.0.2048.1112" timestamp="1615723158422" />
-    <state x="389" y="259" key="RollbackChangesDialog" timestamp="1615719494296">
+    <state x="389" y="259" key="RollbackChangesDialog" timestamp="1616007050586">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="389" y="259" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615719494296" />
+    <state x="389" y="259" key="RollbackChangesDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1616007050586" />
     <state x="505" y="131" key="SettingsEditor" timestamp="1615720608126">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
@@ -389,13 +409,31 @@
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="842" y="470" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.2048.1112@0.0.2048.1112" timestamp="1615712660973" />
-    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1615746353084">
+    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog" timestamp="1616008056955">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
-    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1615746353084" />
+    <state x="856" y="275" key="com.intellij.testIntegration.createTest.CreateTestDialog/0.0.2048.1112@0.0.2048.1112" timestamp="1616008056955" />
+    <state x="648" y="217" width="1099" height="677" key="new project wizard" timestamp="1616008005658">
+      <screen x="0" y="0" width="2048" height="1112" />
+    </state>
+    <state x="648" y="217" width="1099" height="677" key="new project wizard/0.0.2048.1112@0.0.2048.1112" timestamp="1616008005658" />
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup" timestamp="1615724275638">
       <screen x="0" y="0" width="2048" height="1112" />
     </state>
     <state x="687" y="243" width="672" height="678" key="search.everywhere.popup/0.0.2048.1112@0.0.2048.1112" timestamp="1615724275638" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/form/EmailRegisterTest.java</url>
+          <line>16</line>
+          <properties class="form.EmailRegisterTest" method="Create_account_test_correct">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
