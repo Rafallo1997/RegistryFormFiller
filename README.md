@@ -12,7 +12,7 @@ Aplication have 3 major classes
 
 
 
-```jav
+```java
 Title_selector("Mrs");
         input(driver.findElement(By.id("customer_firstname")), "Andrzej");
       input(driver.findElement(By.id("customer_lastname")), "Kowalski");
