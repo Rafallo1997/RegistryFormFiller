@@ -21,6 +21,11 @@ WebElement email_input;
 private String email;
 WebDriverWait wait;
 
+    /**
+     * This constructor opens registration page and fills registration form with provided email
+     * @param driver WebDriver to be executed with
+     * @param email String with email address
+     */
     public EmailRegister(WebDriver driver,String email){
         this.email=email;
 wait=new WebDriverWait(driver,2);
@@ -30,6 +35,7 @@ wait=new WebDriverWait(driver,2);
             driver.findElement(By.id("SubmitCreate")).click();
             try {
                 wait.until(ExpectedConditions.visibilityOfElementLocated(By.id("create_account_error")));
+
                 Error=true;
 
             }catch (TimeoutException e){

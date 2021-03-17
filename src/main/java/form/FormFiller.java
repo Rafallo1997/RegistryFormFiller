@@ -10,7 +10,7 @@ import org.openqa.selenium.support.ui.Select;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 public class FormFiller {
-    private String first_name="Jan0";
+
     WebElement create_account;
     WebElement form;
     WebDriver driver;
@@ -29,7 +29,7 @@ public class FormFiller {
         //Inputs//////////////
 
         Title_selector("Mrs");
-        input(driver.findElement(By.id("customer_firstname")), first_name);
+        input(driver.findElement(By.id("customer_firstname")), "Andrzej");
       input(driver.findElement(By.id("customer_lastname")), "Kowalski");
       input("passwd","haslo");
       Birthday_form(12,1,1997);
@@ -40,6 +40,8 @@ public class FormFiller {
       select_by_text("id_state","Alaska");
       input("postcode","00500");
       input("phone_mobile","123456789");
+
+
       validCheckerLoop();
 
     }
@@ -123,4 +125,5 @@ switch (title){
              }else System.out.println(validator.getText()+" "+"Not OK");
         }
 }
+
 }
