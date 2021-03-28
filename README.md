@@ -12,7 +12,7 @@ Aplication have 3 major classes
 
 
 
-```java
+```
 Title_selector("Mrs");
         input(driver.findElement(By.id("customer_firstname")), "Andrzej");
       input(driver.findElement(By.id("customer_lastname")), "Kowalski");
@@ -27,3 +27,6 @@ Title_selector("Mrs");
       input("phone_mobile","123456789");
 ```
 **RegistrationProcess** - This class executes both **FormFiller** and **EmailRegister** classes
+
+## JUnit tests
+For now application only got tests for **EmailRegister** class
