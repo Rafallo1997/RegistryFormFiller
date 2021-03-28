@@ -15,14 +15,15 @@ class EmailRegisterTest_Chrome {
 
         EmailRegister emailRegister=new EmailRegister(ChromeDriver,"ds@op.pl");
         assertEquals(emailRegister.isError(),false);
-ChromeDriver.close();
+
+
     }
     @Test
     void Create_account_test_incorrect(){
 
         EmailRegister emailRegister=new EmailRegister(ChromeDriver,"@op.pl");
         assertEquals(emailRegister.isError(),true);
-ChromeDriver.close();
+
     }
     @AfterEach
     void close(){
