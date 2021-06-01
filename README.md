@@ -29,4 +29,4 @@ Title_selector("Mrs");
 **RegistrationProcess** - This class executes both **FormFiller** and **EmailRegister** classes
 
 ## JUnit tests
-For now application only got tests for **EmailRegister** class
+Apllication have test for checking correctness of entered email adress **EmailRegisterTest** and for whole procces of filling the registry forms **FromFillerTest**
